@@ -11,3 +11,25 @@ body {
   width: 100%;
   max-width: 960px;
 }
+
+.flex-container {
+  display: flex;
+  background: #fff;
+}
+
+.box{
+  height: 100px;
+  min-width: 100px;
+}
+
+.one {
+  background: red;
+}
+
+.two {
+  background: blue;
+}
+
+.three {
+  background: green;
+}
