@@ -17,13 +17,14 @@ body {
   display: flex;
   background: #fff;
   flex-wrap: wrap;
-  flex-flow: column-reverse;
-  justify-content: center;
-  height: 800px;
+  flex-flow: column; /* determines the main-axis & cross-axis */
+  height: 600px;
+  align-items: center; /* cross-axis */
+  justify-content: flex-end; /* main-axis */
 }
 
 .box{
-  height: 100px;
+  width: 100px;
   flex: 0 0 100px;
 }
 
